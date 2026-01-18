@@ -192,3 +192,12 @@ nav {
 .contact-image:hover {
     transform: scale(1.05);
 }
+.error-border {
+  border: 1px solid red;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
