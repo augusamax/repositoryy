@@ -10,6 +10,10 @@
 
     <link rel="stylesheet" href="style.css">
 </head>
+
+</body>
+</html>
+
 <body>
 
 <nav>
@@ -43,12 +47,33 @@
      LinkedIn
 </a>
     </div>
+<div class="contact-form">
+  <h2>Envoyer un message</h2>
+
+  <form id="contactForm">
+
+    <div class="field">
+      <input type="email" id="email" placeholder="Adresse mail">
+      <small class="error" style="display:none;">
+        Ce champ ne peut pas être vide
+      </small>
+    </div>
+
+    <div class="field">
+      <textarea id="message" placeholder="Votre message"></textarea>
+      <small class="error" style="display:none;">
+        merci d'écrire un message 
+      </small>
+    </div>
+
+    <button type="submit">Envoyer</button>
+  </form>
+</div>
 
     <!-- Image de contact -->
     <img src="C:\Users\augus\Downloads\IMG_8215.jpg" alt="Photo de contact" class="contact-image">
 
 </section>
-
+<script src="contact.js"></script>
 </body>
 </html>
-
